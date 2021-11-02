@@ -1,34 +1,33 @@
-import logo from "./logo.svg";
 import "./App.css";
-
 function App() {
   return (
     <div className="App">
-      sss
       <iframe
-      
-        src="http://localhost:3000/d-solo/UDdpyzz7z/prometheus-2-0-stats?orgId=2&from=1635408203306&to=1635411803306&panelId=32"
-        width="450"
-        height="200"
-        frameBorder="0"
+        src="http://localhost:3000/d-solo/SPsYS4F7k/new-dashboard-copy?orgId=1&from=1635757414072&refresh=5&theme=light&panelId=2"
+        width="800"
+        height="390"
+        frameborder="0"
       ></iframe>
-      <iframe 
-        src="https://mitesh1.grafana.net/d-solo/XU8HAD5Gk/usage-insights-cloud?orgId=1&refresh=30s&from=1634790419251&to=1635395219251&panelId=18"
-        width="450"
-        height="200"
-        frameBorder="0"
+
+      <iframe
+        src="http://localhost:3000/d-solo/SPsYS4F7k/new-dashboard-copy?orgId=1&from=1635759179004&theme=light&panelId=6&refresh=5"
+        width="800"
+        height="390"
+        frameborder="0"
       ></iframe>
-       <iframe X-Frame-Options="http://localhost:3000/" src="http://localhost:3000/d-solo/nOyWtEO7z/test?orgId=1&from=1635392418326&to=1635414018326&panelId=2&output=embed"
-              width="450" height="200" frameBorder="0"></iframe>
-       <iframe X-Frame-Options=" http://mitesh1.grafana.net/"
-          src="https://mitesh1.grafana.net/d-solo/XU8HAD5Gk/usage-insights-cloud?orgId=1&refresh=30s&from=1634790419251&to=1635395219251&panelId=18&output=embed"
-          width="450" height="200" frameBorder="0"></iframe>
-      {/*<iframe
-      {/*    src="http://localhost:3000/d-solo/UDdpyzz7z/prometheus-2-0-stats?orgId=2&from=1635391558066&to=1635395158066&panelId=32"*/}
-      {/*    width="450" height="200" frameBorder="0"></iframe>*/}
-      <iframe  
-        src="http://localhost:3000/embed/d-solo/rpfmFFz7z/prometheus-stats?orgId=1&from=1635224530070&to=1635224830070&panelId=2&output=embed"
-        width="450" height="200" frameBorder="0" ></iframe> 
+      <iframe
+        src="http://localhost:3000/d-solo/SPsYS4F7k/new-dashboard-copy?orgId=1&from=1635759275021&refresh=5&panelId=8&theme=light"
+        width="800"
+        height="390"
+        frameborder="0"
+      ></iframe>
+
+      <iframe
+        src="http://localhost:3000/d-solo/SPsYS4F7k/new-dashboard-copy?orgId=1&from=1635758741146&refresh=5&panelId=4&theme=light"
+        width="800"
+        height="390"
+        frameborder="0"
+      ></iframe>
     </div>
   );
 }
